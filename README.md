@@ -43,7 +43,7 @@ Vastavus ülesande nõuetele:
 - On loodud riikide loendi jaoks lehekülgede kaupa pagineerimist
 
 ## INSTALLIMA. Kuidas käivitada
-Lae projekt alla https://github.com/tKozuhhar/.. <br>
+Lae projekt alla https://github.com/tKozuhhar/Praktika4_Frontend.git <br>
 Paigaldakse Node.js (LTS) järgmiselt lingilt: https://nodejs.org/en <br>
 LTS (Long Term Support) on stabiilne versioon pikaajalise toega. Soovitatav enamiku kasutajate jaoks.<br>
 Pärast seda paigalda paket projektis: <br>
