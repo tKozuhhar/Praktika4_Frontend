@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin; /* высота логотипа — 40% от минимального размера экрана*/
+  pointer-events: none; /*отключает взаимодействие с логотипом*/
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear; /*равномерная анимация вращения логотипа, анимация длится 20 сек и повторяется*/
+  }
+}
+
+.App-header { /*стили для верхушки приложения*/
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link { /*стили для ссылок в приложении*/
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); /*начало: логотип не повёрнут*/
+  }
+  to {
+    transform: rotate(360deg); /*конец: логотип повёрнут на 360 градусов*/
+  }
+}
